@@ -1,0 +1,2 @@
+(window["webpackJsonprefo-css"]=window["webpackJsonprefo-css"]||[]).push([[58],{1471:function(e,s,n){"use strict";n.r(s);var a=n(0),c=n.n(a);s.default=function(){return c.a.createElement("div",{className:"App"},"dashboard")}}}]);
+//# sourceMappingURL=58.1f9c1073.chunk.js.map

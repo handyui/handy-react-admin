@@ -1,0 +1,30 @@
+// 优抚
+.preferential{
+    .avatar{
+      float: right;
+      margin-right: 40px;
+    }
+  }
+  
+  .preferential-detail{
+    margin: 20px;
+    .leftInfor{
+      width: 74%;
+      padding: 20px;
+      background: #fff;
+    }
+    .rightInfor{
+        float: right;
+        width: 25%;
+        height: 600px;
+        padding: 40px 0 20px 0;
+        background: #fff;
+        text-align: center;
+        .avatar{
+            margin: 0 auto;
+        }
+        .ant-btn{
+            margin-top: 20px;
+        }
+    }
+  }

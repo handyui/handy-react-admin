@@ -1,0 +1,42 @@
+.form-content{
+    li{
+        text-align: center;
+        .form-item{
+           width: (100%-6%)/11;
+           display: inline-block;
+           border-right: 1px solid #d9d9d9;
+           border-bottom: 1px solid #d9d9d9;
+           input{
+                border: none;
+           }
+        }
+        .sort{
+            width: 3%;
+            display: inline-block;
+        }
+        .right{
+            float: right;
+        }
+   }
+   .title{
+        margin-bottom: 0;
+        height: 70px;
+        li{
+            .form-item{
+                height: 70px;
+                float: left;
+                vertical-align: middle;
+            }
+            
+        }
+   }
+   .cont{
+       li{
+            height: 32px;
+            .form-item{
+                height: 32px;
+                line-height: 32px;
+            }
+       }
+   }
+}

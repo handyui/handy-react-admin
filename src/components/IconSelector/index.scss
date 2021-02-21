@@ -1,0 +1,20 @@
+.icon-select {
+    list-style: none;
+    padding: 0;
+    overflow-y: scroll;
+    height: 450px;
+  
+    li{
+      display: inline-block;
+      padding: 0;
+      margin: 3px 0;
+      border-radius: 4px;
+      width: 10%;
+      text-align: center;
+      &:hover, &.active{
+        cursor: pointer;
+        color: #fff;
+        background-color:gray;
+      }
+    }
+}
