@@ -10,6 +10,7 @@
 
 # production
 /build
+/handy-react-admin
 
 # misc
 .DS_Store

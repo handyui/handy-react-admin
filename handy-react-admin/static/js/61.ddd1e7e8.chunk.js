@@ -1,2 +1,0 @@
-(window["webpackJsonprefo-css"]=window["webpackJsonprefo-css"]||[]).push([[61],{1533:function(e,n,a){"use strict";a.r(n);var t=a(0),r=a.n(t),c=a(1443);n.default=function(e){return r.a.createElement(r.a.Fragment,null,r.a.createElement(c.b,{modalType:"detail"}))}}}]);
-//# sourceMappingURL=61.ddd1e7e8.chunk.js.map

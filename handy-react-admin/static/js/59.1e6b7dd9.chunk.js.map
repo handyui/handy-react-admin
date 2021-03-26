@@ -1,1 +1,0 @@
-{"version":3,"sources":["pages/financeManage/subsidy/edit.tsx"],"names":["EditPage","props"],"mappings":"kHAAA,2BAQeA,UANK,SAACC,GACjB,OACA","file":"static/js/59.1e6b7dd9.chunk.js","sourcesContent":["import React, { FC } from 'react'\r\n\r\nconst EditPage:FC = (props) =>{\r\n    return (\r\n    <span>sss</span>\r\n  )\r\n}\r\n\r\nexport default EditPage"],"sourceRoot":""}

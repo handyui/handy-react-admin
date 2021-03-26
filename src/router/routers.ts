@@ -53,11 +53,11 @@ export const menuList = [
     noCache: true,
     component: loadable(() => import('@/pages/dashboard'))
   },
-  { menuId: 2, menuPath: "/system/account", title: "用户管理", hidden: 1, component: loadable(() => import('@/pages/system/account'))},
-  { menuId: 3, menuPath: "/system/role", title: "角色管理", hidden: 1, component: loadable(() => import('@/pages/system/role'))},
-  { menuId: 4, menuPath: "/system/organization", title: "单位管理", hidden: 1, component: loadable(() => import('@/pages/system/organization'))},
-  { menuId: 5, menuPath: "/system/oper", title: "业务日志", hidden: 1, component: loadable(() => import('@/pages/system/oper'))},
-  { menuId: 6, menuPath: "/system/loginLog",title: "登录日志",hidden: 1,component: loadable(() => import('@/pages/system/loginLog'))},
-  { menuId: 12, menuPath: "/system/access",title: "菜单管理",hidden: 1,component: loadable(() => import('@/pages/system/access'))},
-  { menuId: 13, menuPath: "/system/dict",title: "字典管理",hidden: 1,component: loadable(() => import('@/pages/system/dict'))},
+  { menuId: 2, menuPath: "/system/account", title: "用户管理", hidden: 1, noCache: true, component: loadable(() => import('@/pages/system/account'))},
+  { menuId: 3, menuPath: "/system/role", title: "角色管理", hidden: 1, noCache: true, component: loadable(() => import('@/pages/system/role'))},
+  { menuId: 4, menuPath: "/system/organization", title: "单位管理", hidden: 1, noCache: true, component: loadable(() => import('@/pages/system/organization'))},
+  { menuId: 5, menuPath: "/system/oper", title: "业务日志", hidden: 1, noCache: true, component: loadable(() => import('@/pages/system/oper'))},
+  { menuId: 6, menuPath: "/system/loginLog",title: "登录日志",hidden: 1, noCache: true, component: loadable(() => import('@/pages/system/loginLog'))},
+  { menuId: 12, menuPath: "/system/access",title: "菜单管理",hidden: 1, noCache: true, component: loadable(() => import('@/pages/system/access'))},
+  { menuId: 13, menuPath: "/system/dict",title: "字典管理",hidden: 1, noCache: true, component: loadable(() => import('@/pages/system/dict'))},
 ]

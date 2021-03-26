@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, forwardRef, useImperativeHandle, useState, Fragment, ReactNode} from 'react'
+import React, { useEffect, useRef, forwardRef, useImperativeHandle, useState, Fragment, ReactNode, memo} from 'react'
 import { Form, Row, Col, Input, Radio, InputNumber, Switch, 
   TreeSelect, Button, Select, Checkbox,  DatePicker, Space } from 'antd'
 import classNames from 'classnames'
@@ -219,4 +219,4 @@ SchemaForm.defaultProps = {
   showBtn: false
 }
 
-export default SchemaForm
+export default memo(SchemaForm)

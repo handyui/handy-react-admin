@@ -112,7 +112,6 @@ class HttpRequest {
     request (options:AxiosRequestConfig) {
         this.data = options
         const instance = axios.create({
-            // baseURL: process.env.NODE_ENV === 'development' ? '/api/' : 'http://192.168.7.221:80/api', 
             baseURL: process.env.REACT_APP_URL,
             timeout: 60000, // request timeout
             // withCredentials: true,
